@@ -17,7 +17,7 @@ function caldis(dis) {
     }else if(dis > 2 && dis <= 8){
         return 6 + (dis - 2) * 0.8;
     }else{
-        return 6 + (dis - 2) * 0.8 + (dis - 8) * 1.2;
+        return 6 + 6 * 0.8 + (dis - 8) * 1.2;
     }
 };
 
